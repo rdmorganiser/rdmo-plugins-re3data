@@ -68,7 +68,7 @@ class Re3DataProvider(Provider):
         'https://rdmorganiser.github.io/terms/options/research_fields/216': '410 Construction Engineering and Architecture'
     }
 
-    def get_options(self, project):
+    def get_options(self, project, search=None):
         options = []
 
         # get the attribute for the subjects
@@ -111,7 +111,7 @@ class Re3DataProvider(Provider):
             # loop over repository list
             for repository_node in xml.findall('repository'):
                 options.append({
-                    'external_id': repository_node.find('id').text,
+                    'id': repository_node.find('id').text,
                     'text': repository_node.find('name').text
                 })
 
