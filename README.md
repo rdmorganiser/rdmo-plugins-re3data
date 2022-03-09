@@ -20,7 +20,7 @@ Add the plugin to the `OPTIONSET_PROVIDERS` in `config/settings/local.py`:
 ```python
 OPTIONSET_PROVIDERS = [
     ...
-    ('re3data', _('Repositories from re3data'), 'rdmo_re3data.Re3DataProvider')
+    ('re3data', _('Repositories from re3data'), 'rdmo_re3data.providers.Re3DataProvider')
 ]
 ```
 
