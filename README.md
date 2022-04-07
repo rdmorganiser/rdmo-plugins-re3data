@@ -3,7 +3,7 @@ RDMO re3data plugin
 
 The dynamic re3data optionset will query [re3data.org](https://www.re3data.org/) for repositories that match the research field of the project (as given by the `project/research_field/title` attribute).
 
-Please visit the [RDMO documentation](https://rdmo.readthedocs.io/en/latest/configuration/plugins.html#optionset-providers) for detailed information.
+Please visit the [RDMO documentation](https://rdmo.readthedocs.io/en/latest/plugins/index.html#optionset-providers) for detailed information.
 
 
 Setup
