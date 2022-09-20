@@ -25,3 +25,5 @@ OPTIONSET_PROVIDERS = [
 ```
 
 After restarting RDMO, the `Re3DataProvider` should be selectable as a provider option for option sets.
+
+The re3data plugin in RDMO provides the corresponding repositories, but they were not sorted alphabetically. Now there's the code modified to sort repositories alphabetically, which improved the findabilty of a repository.
