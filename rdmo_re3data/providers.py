@@ -1,3 +1,4 @@
+from ast import Lambda
 import logging
 from urllib.parse import urlencode
 
@@ -114,5 +115,5 @@ class Re3DataProvider(Provider):
                     'id': repository_node.find('id').text,
                     'text': repository_node.find('name').text
                 })
-
+            options.sort(key=lambda option: option.get('text'), reverse=False)
         return options
