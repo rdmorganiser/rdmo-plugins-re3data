@@ -12,7 +12,7 @@ Setup
 Install the plugin in your RDMO virtual environment using pip (directly from GitHub):
 
 ```bash
-pip install git+https://github.com/rdmorganiser/rdmo-re3data
+pip install git+https://github.com/rdmorganiser/rdmo-plugins-re3data
 ```
 
 Add the plugin to the `OPTIONSET_PROVIDERS` in `config/settings/local.py`:
