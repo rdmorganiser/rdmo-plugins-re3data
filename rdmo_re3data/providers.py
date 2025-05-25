@@ -68,7 +68,7 @@ class Re3DataProvider(Provider):
         'https://rdmorganiser.github.io/terms/options/research_fields/216': '410 Construction Engineering and Architecture'  # noqa: E501
     }
 
-    def get_options(self, project, search=None):
+    def get_options(self, project, search=None, user=None, site=None):
         options = []
 
         # get the attribute for the subjects
