@@ -33,6 +33,14 @@ dynamic = ["version"]
 [project.urls]
 repository = "https://github.com/rdmorganiser/rdmo-plugins-re3data"
 
+[project.optional-dependencies]
+dev = [
+    "build",
+    "pre-commit",
+    "ruff",
+    "twine",
+]
+
 [tool.setuptools]
 packages = ["rdmo_re3data"]
 
