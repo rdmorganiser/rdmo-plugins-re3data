@@ -12,7 +12,7 @@ maintainers = [
 ]
 description = "The dynamic re3data optionset will query re3data.org for repositories that match the research field of the project."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = {file = "LICENSE"}
 classifiers = [
     'Development Status :: 5 - Production/Stable',
@@ -22,7 +22,6 @@ classifiers = [
     'License :: OSI Approved :: Apache Software License',
     'Operating System :: OS Independent',
     "Programming Language :: Python :: 3 :: Only",
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
@@ -32,6 +31,14 @@ dynamic = ["version"]
 
 [project.urls]
 repository = "https://github.com/rdmorganiser/rdmo-plugins-re3data"
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "pre-commit",
+    "ruff",
+    "twine",
+]
 
 [tool.setuptools]
 packages = ["rdmo_re3data"]
