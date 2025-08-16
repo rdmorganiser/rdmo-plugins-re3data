@@ -1,6 +1,8 @@
 import logging
 from urllib.parse import urlencode
 
+from django.templatetags.static import static
+
 import requests
 
 from rdmo.core.xml import parse_xml_string
@@ -111,8 +113,17 @@ class Re3DataProvider(Provider):
             # loop over repository list
             for repository_node in xml.findall('repository'):
                 options.append({
-                    'id': repository_node.find('id').text,
-                    'text': repository_node.find('name').text
+                    'id': self.get_id(repository_node),
+                    'text': self.get_text(repository_node)
                 })
 
         return options
+
+    def get_id(self, repository_node):
+        return repository_node.find('id').text
+
+    def get_text(self, repository_node):
+        name = repository_node.find('name').text
+        doi = repository_node.find('doi').text
+        img = static('re3data/img/DOI.svg')
+        return f'{name} <a href="{doi}"><img height="16" src="{img}" alt="DOI logo" /> {doi}</a>'
