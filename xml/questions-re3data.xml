@@ -1,0 +1,711 @@
+<?xml version="1.0" ?>
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>project</key>
+        <path>project</path>
+        <dc:comment/>
+        <parent/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>research_field</key>
+        <path>project/research_field</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field/title">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>title</key>
+        <path>project/research_field/title</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>dataset</key>
+        <path>project/dataset</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>preservation</key>
+        <path>project/dataset/preservation</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+    </attribute>
+    <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>repository</key>
+        <path>project/dataset/preservation/repository</path>
+        <dc:comment/>
+        <parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
+    </attribute>
+    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>re3data</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key>re3data</provider_key>
+        <conditions/>
+    </optionset>
+    <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>research_fields</key>
+        <dc:comment/>
+        <order>0</order>
+        <provider_key/>
+        <conditions/>
+    </optionset>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/169">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>169</key>
+        <path>research_fields/169</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>101</order>
+        <text lang="en">Humanities and Social Sciences / Ancient Cultures</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Alte Kulturen</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/174">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>174</key>
+        <path>research_fields/174</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>102</order>
+        <text lang="en">Humanities and Social Sciences / History</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Geschichtswissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/171">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>171</key>
+        <path>research_fields/171</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>103</order>
+        <text lang="en">Humanities and Social Sciences / Fine Arts, Music, Theatre and Media Studies</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Kunst-, Musik-, Theater- und Medienwissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/173">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>173</key>
+        <path>research_fields/173</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>104</order>
+        <text lang="en">Humanities and Social Sciences / Linguistics</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Sprachwissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/170">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>170</key>
+        <path>research_fields/170</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>105</order>
+        <text lang="en">Humanities and Social Sciences / Literary Studies</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Literaturwissenschaft</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/172">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>172</key>
+        <path>research_fields/172</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>106</order>
+        <text lang="en">Humanities and Social Sciences / Non-European Languages and Cultures, Social and Cultural Anthropology, Jewish Studies and Religious Studies</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Außereuropäische Sprachen und Kulturen, Sozial- und Kulturanthropologie, Judaistik und Religionswissenschaft</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/175">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>175</key>
+        <path>research_fields/175</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>107</order>
+        <text lang="en">Humanities and Social Sciences / Theology</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Theologie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/176">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>176</key>
+        <path>research_fields/176</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>108</order>
+        <text lang="en">Humanities and Social Sciences / Philosophy</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Philosophie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/178">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>178</key>
+        <path>research_fields/178</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>109</order>
+        <text lang="en">Humanities and Social Sciences / Education Sciences</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Erziehungswissenschaft</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/177">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>177</key>
+        <path>research_fields/177</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>110</order>
+        <text lang="en">Humanities and Social Sciences / Psychology</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Psychologie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/179">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>179</key>
+        <path>research_fields/179</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>111</order>
+        <text lang="en">Humanities and Social Sciences / Social Sciences</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Sozialwissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/180">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>180</key>
+        <path>research_fields/180</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>112</order>
+        <text lang="en">Humanities and Social Sciences / Economics</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Wirtschaftswissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/181">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>181</key>
+        <path>research_fields/181</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>113</order>
+        <text lang="en">Humanities and Social Sciences / Jurisprudence</text>
+        <text lang="de">Geistes- und Sozialwissenschaften / Rechtswissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/182">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>182</key>
+        <path>research_fields/182</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>201</order>
+        <text lang="en">Life Sciences / Basic Biological and Medical Research</text>
+        <text lang="de">Lebenswissenschaften / Grundlagen der Biologie und Medizin</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/183">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>183</key>
+        <path>research_fields/183</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>202</order>
+        <text lang="en">Life Sciences / Plant Sciences</text>
+        <text lang="de">Lebenswissenschaften / Pflanzenwissenschaften</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/186">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>186</key>
+        <path>research_fields/186</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>203</order>
+        <text lang="en">Life Sciences / Zoology</text>
+        <text lang="de">Lebenswissenschaften / Zoologie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/184">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>184</key>
+        <path>research_fields/184</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>204</order>
+        <text lang="en">Life Sciences / Microbiology, Virology and Immunology</text>
+        <text lang="de">Lebenswissenschaften / Mikrobiologie, Virologie und Immunologie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/185">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>185</key>
+        <path>research_fields/185</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>205</order>
+        <text lang="en">Life Sciences / Medicine</text>
+        <text lang="de">Lebenswissenschaften / Medizin</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/187">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>187</key>
+        <path>research_fields/187</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>206</order>
+        <text lang="en">Life Sciences / Neurosciences</text>
+        <text lang="de">Lebenswissenschaften / Neurowissenschaft</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/188">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>188</key>
+        <path>research_fields/188</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>207</order>
+        <text lang="en">Life Sciences / Agriculture, Forestry, Horticulture and Veterinary Medicine</text>
+        <text lang="de">Lebenswissenschaften / Agrar-, Forstwissenschaften, Gartenbau und Tiermedizin</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/189">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>189</key>
+        <path>research_fields/189</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>301</order>
+        <text lang="en">Natural Sciences / Molecular Chemistry</text>
+        <text lang="de">Naturwissenschaften / Molekülchemie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/192">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>192</key>
+        <path>research_fields/192</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>302</order>
+        <text lang="en">Natural Sciences / Chemical Solid State and Surface Research</text>
+        <text lang="de">Naturwissenschaften / Chemische Festkörper- und Oberflächenforschung</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/190">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>190</key>
+        <path>research_fields/190</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>303</order>
+        <text lang="en">Natural Sciences / Physical and Theoretical Chemistry</text>
+        <text lang="de">Naturwissenschaften / Physikalische und Theoretische Chemie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/191">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>191</key>
+        <path>research_fields/191</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>304</order>
+        <text lang="en">Natural Sciences / Analytical Chemistry, Method Development (Chemistry)</text>
+        <text lang="de">Naturwissenschaften / Analytik, Methodenentwicklung (Chemie)</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/193">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>193</key>
+        <path>research_fields/193</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>305</order>
+        <text lang="en">Natural Sciences / Biological Chemistry and Food Chemistry</text>
+        <text lang="de">Naturwissenschaften / Biologische Chemie und Lebensmittelchemie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/194">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>194</key>
+        <path>research_fields/194</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>306</order>
+        <text lang="en">Natural Sciences / Polymer Research</text>
+        <text lang="de">Naturwissenschaften / Polymerforschung</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/195">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>195</key>
+        <path>research_fields/195</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>307</order>
+        <text lang="en">Natural Sciences / Condensed Matter Physics</text>
+        <text lang="de">Naturwissenschaften / Physik der kondensierten Materie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/196">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>196</key>
+        <path>research_fields/196</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>308</order>
+        <text lang="en">Natural Sciences / Optics, Quantum Optics and Physics of Atoms, Molecules and Plasmas</text>
+        <text lang="de">Naturwissenschaften / Optik, Quantenoptik und Physik der Atome, Moleküle und Plasmen</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/198">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>198</key>
+        <path>research_fields/198</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>309</order>
+        <text lang="en">Natural Sciences / Particles, Nuclei and Fields</text>
+        <text lang="de">Naturwissenschaften / Teilchen, Kerne und Felder</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/197">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>197</key>
+        <path>research_fields/197</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>310</order>
+        <text lang="en">Natural Sciences / Statistical Physics, Soft Matter, Biological Physics, Nonlinear Dynamics</text>
+        <text lang="de">Naturwissenschaften / Statistische Physik, Weiche Materie, Biologische Physik, Nichtlineare Dynamik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/199">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>199</key>
+        <path>research_fields/199</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>311</order>
+        <text lang="en">Natural Sciences / Astrophysics and Astronomy</text>
+        <text lang="de">Naturwissenschaften / Astrophysik und Astronomie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/200">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>200</key>
+        <path>research_fields/200</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>312</order>
+        <text lang="en">Natural Sciences / Mathematics</text>
+        <text lang="de">Naturwissenschaften / Mathematik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/201">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>201</key>
+        <path>research_fields/201</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>313</order>
+        <text lang="en">Natural Sciences / Atmospheric Science and Oceanography</text>
+        <text lang="de">Naturwissenschaften / Atmosphären- und Meeresforschung</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/202">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>202</key>
+        <path>research_fields/202</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>314</order>
+        <text lang="en">Natural Sciences / Geology and Palaeontology</text>
+        <text lang="de">Naturwissenschaften / Geologie und Paläontologie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/203">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>203</key>
+        <path>research_fields/203</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>315</order>
+        <text lang="en">Natural Sciences / Geophysics and Geodesy</text>
+        <text lang="de">Naturwissenschaften / Geophysik und Geodäsie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/204">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>204</key>
+        <path>research_fields/204</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>316</order>
+        <text lang="en">Natural Sciences / Geochemistry, Mineralogy and Crystallography</text>
+        <text lang="de">Naturwissenschaften / Geochemie, Mineralogie und Kristallographie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/206">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>206</key>
+        <path>research_fields/206</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>317</order>
+        <text lang="en">Natural Sciences / Geography</text>
+        <text lang="de">Naturwissenschaften / Geographie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/205">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>205</key>
+        <path>research_fields/205</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>318</order>
+        <text lang="en">Natural Sciences / Water Research</text>
+        <text lang="de">Naturwissenschaften / Wasserforschung</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/207">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>207</key>
+        <path>research_fields/207</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>401</order>
+        <text lang="en">Engineering Sciences / Production Technology</text>
+        <text lang="de">Ingenieurwissenschaften / Produktionstechnik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/208">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>208</key>
+        <path>research_fields/208</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>402</order>
+        <text lang="en">Engineering Sciences / Mechanics and Constructive Mechanical Engineering</text>
+        <text lang="de">Ingenieurwissenschaften / Mechanik und Konstruktiver Maschinenbau</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/209">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>209</key>
+        <path>research_fields/209</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>403</order>
+        <text lang="en">Engineering Sciences / Process Engineering, Technical Chemistry</text>
+        <text lang="de">Ingenieurwissenschaften / Verfahrenstechnik, Technische Chemie</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/210">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>210</key>
+        <path>research_fields/210</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>404</order>
+        <text lang="en">Engineering Sciences / Heat Energy Technology, Thermal Machines, Fluid Mechanics</text>
+        <text lang="de">Ingenieurwissenschaften / Wärmeenergietechnik, Thermische Maschinen, Strömungsmechanik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/211">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>211</key>
+        <path>research_fields/211</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>405</order>
+        <text lang="en">Engineering Sciences / Materials Engineering</text>
+        <text lang="de">Ingenieurwissenschaften / Werkstofftechnik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/212">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>212</key>
+        <path>research_fields/212</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>406</order>
+        <text lang="en">Engineering Sciences / Materials Science</text>
+        <text lang="de">Ingenieurwissenschaften / Materialwissenschaft</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/213">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>213</key>
+        <path>research_fields/213</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>407</order>
+        <text lang="en">Engineering Sciences / Systems Engineering</text>
+        <text lang="de">Ingenieurwissenschaften / Systemtechnik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/214">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>214</key>
+        <path>research_fields/214</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>408</order>
+        <text lang="en">Engineering Sciences / Electrical Engineering</text>
+        <text lang="de">Ingenieurwissenschaften / Elektrotechnik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/215">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>215</key>
+        <path>research_fields/215</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>409</order>
+        <text lang="en">Engineering Sciences / Computer Science</text>
+        <text lang="de">Ingenieurwissenschaften / Informatik</text>
+        <additional_input>False</additional_input>
+    </option>
+    <option dc:uri="https://rdmorganiser.github.io/terms/options/research_fields/216">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>216</key>
+        <path>research_fields/216</path>
+        <dc:comment/>
+        <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        <order>410</order>
+        <text lang="en">Engineering Sciences / Construction Engineering and Architecture</text>
+        <text lang="de">Ingenieurwissenschaften / Bauwesen und Architektur</text>
+        <additional_input>False</additional_input>
+    </option>
+    <catalog dc:uri="https://rdmorganiser.github.io/terms/questions/re3data">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>re3data</key>
+        <dc:comment/>
+        <order>10</order>
+        <title lang="en">re3data.org Example Catalog</title>
+        <title lang="de">re3data.org Beispielkatalog</title>
+    </catalog>
+    <section dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/re3data">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>re3data</key>
+        <path>re3data/re3data</path>
+        <dc:comment/>
+        <catalog dc:uri="https://rdmorganiser.github.io/terms/questions/re3data"/>
+        <order>0</order>
+        <title lang="en">Input</title>
+        <title lang="de">Eingabe</title>
+    </section>
+    <questionset dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/re3data/research_field">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>research_field</key>
+        <path>re3data/re3data/research_field</path>
+        <dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+        <attribute/>
+        <section dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/re3data"/>
+        <is_collection>False</is_collection>
+        <order>1</order>
+        <title lang="en">Research field</title>
+        <help lang="en"/>
+        <verbose_name lang="en"/>
+        <verbose_name_plural lang="en"/>
+        <title lang="de">Disziplin</title>
+        <help lang="de"/>
+        <verbose_name lang="de"/>
+        <verbose_name_plural lang="de"/>
+        <conditions/>
+    </questionset>
+    <question dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/re3data/research_field/research_field">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>research_field</key>
+        <path>re3data/re3data/research_field/research_field</path>
+        <dc:comment>for Germany, the classification works, but we might consider also DDC as an option</dc:comment>
+        <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/research_field/title"/>
+        <questionset dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/re3data/research_field"/>
+        <is_collection>True</is_collection>
+        <order>0</order>
+        <help lang="en">The list of disciplines follows the &lt;a href=&quot;http://www.dfg.de/en/dfg_profile/statutory_bodies/review_boards/subject_areas/index.jsp&quot; target=_blank&quot;&gt;subject classification of the DFG (German Research Foundation)&lt;/a&gt;.</help>
+        <text lang="en">Which research field(s) does this project belong to?</text>
+        <verbose_name lang="en">discipline</verbose_name>
+        <verbose_name_plural lang="en">disciplines</verbose_name_plural>
+        <help lang="de">Die Liste der Disziplinen entspricht der &lt;a href=&quot;http://www.dfg.de/dfg_profil/gremien/fachkollegien/faecher/&quot; target=&quot;_blank&quot;&gt;Fachsystematik der Deutschen Forschungsgemeinschaft (DFG)&lt;/a&gt;.</help>
+        <text lang="de">Welcher Disziplin / welchen Disziplinen ist das Projekt zuzuordnen?</text>
+        <verbose_name lang="de">Forschungsdisziplin</verbose_name>
+        <verbose_name_plural lang="de">Forschungsdisziplinen</verbose_name_plural>
+        <widget_type>select</widget_type>
+        <value_type>text</value_type>
+        <maximum/>
+        <minimum/>
+        <step/>
+        <unit/>
+        <optionsets>
+            <optionset dc:uri="https://rdmorganiser.github.io/terms/options/research_fields"/>
+        </optionsets>
+        <conditions/>
+    </question>
+    <section dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/repository">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>repository</key>
+        <path>re3data/repository</path>
+        <dc:comment/>
+        <catalog dc:uri="https://rdmorganiser.github.io/terms/questions/re3data"/>
+        <order>1</order>
+        <title lang="en">Repository</title>
+        <title lang="de">Repository</title>
+    </section>
+    <questionset dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/repository/repository">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>repository</key>
+        <path>re3data/repository/repository</path>
+        <dc:comment/>
+        <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
+        <section dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/repository"/>
+        <is_collection>True</is_collection>
+        <order>0</order>
+        <title lang="en">Repository or archive</title>
+        <help lang="en"/>
+        <verbose_name lang="en"/>
+        <verbose_name_plural lang="en"/>
+        <title lang="de">Repositorium oder Archiv</title>
+        <help lang="de"/>
+        <verbose_name lang="de"/>
+        <verbose_name_plural lang="de"/>
+        <conditions/>
+    </questionset>
+    <question dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/repository/repository/repositoy">
+        <uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+        <key>repositoy</key>
+        <path>re3data/repository/repository/repositoy</path>
+        <dc:comment/>
+        <attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository"/>
+        <questionset dc:uri="https://rdmorganiser.github.io/terms/questions/re3data/repository/repository"/>
+        <is_collection>True</is_collection>
+        <order>0</order>
+        <help lang="en"/>
+        <text lang="en">In which repository or archive will the data be held?</text>
+        <verbose_name lang="en"/>
+        <verbose_name_plural lang="en"/>
+        <help lang="de"/>
+        <text lang="de">In welchem Repositorium oder Archiv werden die Daten aufbewahrt?</text>
+        <verbose_name lang="de"/>
+        <verbose_name_plural lang="de"/>
+        <widget_type>select</widget_type>
+        <value_type>text</value_type>
+        <maximum/>
+        <minimum/>
+        <step/>
+        <unit/>
+        <optionsets>
+            <optionset dc:uri="https://rdmorganiser.github.io/terms/options/re3data"/>
+        </optionsets>
+        <conditions/>
+    </question>
+</rdmo>
