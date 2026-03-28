@@ -11,7 +11,6 @@ logger = logging.getLogger(__name__)
 
 
 class Re3DataProvider(Provider):
-
     re3data_url = 'https://www.re3data.org/api/beta/repositories'
 
     subject_attribute = 'https://rdmorganiser.github.io/terms/domain/project/research_field/title'
@@ -65,7 +64,7 @@ class Re3DataProvider(Provider):
         'https://rdmorganiser.github.io/terms/options/research_fields/213': '407 Systems Engineering',
         'https://rdmorganiser.github.io/terms/options/research_fields/214': '408 Electrical Engineering',
         'https://rdmorganiser.github.io/terms/options/research_fields/215': '409 Computer Science',
-        'https://rdmorganiser.github.io/terms/options/research_fields/216': '410 Construction Engineering and Architecture'  # noqa: E501
+        'https://rdmorganiser.github.io/terms/options/research_fields/216': '410 Construction Engineering and Architecture',  # noqa: E501
     }
 
     def get_options(self, project, search=None, user=None, site=None):
@@ -90,9 +89,7 @@ class Re3DataProvider(Provider):
 
         if subjects:
             # construct re3data url
-            url = self.re3data_url + '?' + '&'.join([
-                urlencode({'subjects[]': subject}) for subject in subjects
-            ])
+            url = self.re3data_url + '?' + '&'.join([urlencode({'subjects[]': subject}) for subject in subjects])
 
             # perform http request
             logger.debug('Requesting %s', url)
@@ -110,9 +107,8 @@ class Re3DataProvider(Provider):
 
             # loop over repository list
             for repository_node in xml.findall('repository'):
-                options.append({
-                    'id': repository_node.find('id').text,
-                    'text': repository_node.find('name').text
-                })
+                options.append(
+                    {'id': repository_node.find('id').text, 'text': repository_node.find('name').text},
+                )
 
         return options
